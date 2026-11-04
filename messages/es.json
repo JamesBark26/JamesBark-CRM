@@ -2073,7 +2073,7 @@
     "titleJoin": "Crear cuenta y unirse",
     "title": "Crear cuenta",
     "descJoin": "Verifica tu correo y luego acepta la invitación para unirte a tu equipo.",
-    "desc": "Empieza a usar la Plantilla de CRM para WhatsApp",
+    "desc": "Empieza a usar el CRM de James Bark para WhatsApp",
     "fullNameLabel": "Nombre completo",
     "fullNamePlaceholder": "Juan Pérez",
     "emailLabel": "Correo electrónico",
@@ -2245,7 +2245,7 @@
     }
   },
   "Metadata": {
-    "description": "Plantilla de CRM para WhatsApp que puedes alojar tú mismo."
+    "description": "CRM de James Bark para atender clientes por WhatsApp, Instagram y Facebook."
   },
   "Currency": {
     "USD": "Dólar estadounidense",
