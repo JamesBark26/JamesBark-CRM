@@ -6,8 +6,7 @@ import Link from "next/link";
  * app can be published, so this group sits outside the auth-protected
  * dashboard and is not listed in the middleware's protected paths.
  *
- * Company details are placeholders in [BRACKETS]: edit them in
- * src/app/(legal)/company.ts.
+ * Company details live in src/app/(legal)/company.ts.
  */
 export default function LegalLayout({ children }: { children: React.ReactNode }) {
   return (

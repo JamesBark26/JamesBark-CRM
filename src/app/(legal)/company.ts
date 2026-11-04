@@ -1,12 +1,11 @@
 /**
  * Company details shown on the public legal pages.
- * Replace the [BRACKETED] placeholders with the real values.
  */
 export const COMPANY = {
-  legalName: "[NOMBRE LEGAL DE LA EMPRESA]",
+  legalName: "Corporación Wgroup S.A.",
   brand: "Wgroup CRM",
-  email: "[CORREO DE PRIVACIDAD]",
+  email: "admin@wgroup.com.gt",
   country: "Guatemala",
-  address: "[DIRECCIÓN]",
+  address: "2 calle, Casa 2, Residencial Brisas del Valle, Villa Canales",
   lastUpdated: "4 de noviembre de 2026",
 };
