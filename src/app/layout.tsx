@@ -35,10 +35,10 @@ export async function generateMetadata(): Promise<Metadata> {
 
 const metadata: Metadata = {
   title: {
-    default: "CRM Fornitura",
+    default: "CRM James Bark",
     template: "%s — CRM Wgroup",
   },
-  description: "Fornitura te ha invitado como Asesor de Ventas.",
+  description: "James Bark te ha invitado como Asesor de Ventas.",
   robots: {
     index: false,
     follow: false,
