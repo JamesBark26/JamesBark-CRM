@@ -1,7 +1,7 @@
 {
   "LoginPage": {
     "titleAccept": "Inicia sesión para aceptar",
-    "titleWelcome": "MUEBLERIA FORNITURA",
+    "titleWelcome": "JAMES BARK",
     "descAccept": "Inicia sesión y te llevaremos a la invitación.",
     "descWelcome": "Inicia sesión en tu cuenta",
     "emailLabel": "Correo electrónico",
@@ -17,7 +17,7 @@
     "linkInvalid": "No se pudo iniciar sesión con ese enlace. Si estabas confirmando tu correo, es posible que ya esté verificado; inicia sesión abajo. Para restablecer la contraseña, pide un enlace nuevo y ábrelo en el mismo navegador desde el que lo solicitaste."
   },
   "Sidebar": {
-    "title": "CRM Fornitura",
+    "title": "CRM James Bark",
     "primaryNav": "Principal",
     "dashboard": "Panel",
     "inbox": "Bandeja de entrada",
