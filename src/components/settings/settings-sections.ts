@@ -46,7 +46,7 @@ export interface SectionMeta {
   id: SettingsSection;
   label: string;
   icon: LucideIcon;
-  group: 'top' | 'account' | 'workspace';
+  group: 'top' | 'account' | 'coexistence' | 'workspace';
   /**
    * Cuando es `true`, la sección sólo existe para admin/owner: el rail
    * no dibuja el enlace y `settings/page.tsx` no monta el panel aunque
@@ -61,8 +61,8 @@ export const SECTION_META: Record<SettingsSection, SectionMeta> = {
   profile: { id: 'profile', label: 'Your profile', icon: User, group: 'account' },
   security: { id: 'security', label: 'Login & security', icon: Shield, group: 'account' },
   appearance: { id: 'appearance', label: 'Appearance', icon: Palette, group: 'account' },
-  whatsapp: { id: 'whatsapp', label: 'WhatsApp', icon: PlugZap, group: 'workspace', adminOnly: true },
-  meta: { id: 'meta', label: 'Messenger & Instagram', icon: MessagesSquare, group: 'workspace', adminOnly: true },
+  whatsapp: { id: 'whatsapp', label: 'WhatsApp', icon: PlugZap, group: 'coexistence', adminOnly: true },
+  meta: { id: 'meta', label: 'Messenger & Instagram', icon: MessagesSquare, group: 'coexistence', adminOnly: true },
   templates: { id: 'templates', label: 'Templates', icon: FileText, group: 'workspace', adminOnly: true },
   'quick-replies': { id: 'quick-replies', label: 'Quick replies', icon: Zap, group: 'workspace', adminOnly: true },
   fields: { id: 'fields', label: 'Fields & tags', icon: Tags, group: 'workspace', adminOnly: true },
@@ -74,6 +74,7 @@ export const SECTION_META: Record<SettingsSection, SectionMeta> = {
 export const RAIL_GROUPS: { label: string | null; group: SectionMeta['group'] }[] = [
   { label: null, group: 'top' },
   { label: 'Account', group: 'account' },
+  { label: 'Coexistence', group: 'coexistence' },
   { label: 'Workspace', group: 'workspace' },
 ];
 
