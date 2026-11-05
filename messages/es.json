@@ -1791,7 +1791,9 @@
     },
     "groups": {
       "account": "Cuenta",
+      "coexistence": "Coexistencia",
       "workspace": "Espacio de trabajo"
+    },
     },
     "profile": {
       "title": "Tu perfil",
